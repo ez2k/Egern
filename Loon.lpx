@@ -22,7 +22,7 @@ DOMAIN-SUFFIX,pign.indevs.in,PROXY
 
 # DOMAIN
 # 精确域名匹配，仅匹配完整域名
-# DOMAIN,www.example.com,PROXY
+DOMAIN,ltyun001.com,Patatooo
 
 
 # IP-CIDR
