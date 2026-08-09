@@ -4,8 +4,8 @@ compat_arguments:
   blockUpload: 'true'
   blockShorts: 'true'
   blockImmersive: 'true'
-  captionLang: zh-Hans
-  lyricLang: zh-Hans
+  captionLang: ko
+  lyricLang: ko
   debug: 'false'
 compat_arguments_schema:
   blockUpload:
@@ -32,23 +32,23 @@ compat_arguments_schema:
   captionLang:
     name: 字幕翻译语言
     description: 需要把YouTube字幕翻译翻译为何种语言
-    default_value: zh-Hans
+    default_value: ko
     options:
     - zh-Hans
     - zh-Hant
     - ja
-    - kr
+    - ko
     - en
     - off
   lyricLang:
     name: 歌词翻译语言
     description: 需要把YouTube Music字幕翻译翻译为何种语言
-    default_value: zh-Hans
+    default_value: ko
     options:
     - zh-Hans
     - zh-Hant
     - ja
-    - kr
+    - ko
     - en
     - off
   debug:
@@ -89,7 +89,7 @@ scriptings:
     # 显式传递参数，确保通用转换器和各种客户端都能正确读取
     argument: blockUpload=true,blockShorts=true,blockImmersive=true,captionLang=zh-Hans,lyricLang=zh-Hans,debug=false
     env:
-      _compat.$argument: '{"blockUpload":true,"blockShorts":true,"blockImmersive":true,"captionLang":"zh-Hans","lyricLang":"zh-Hans","debug":false}'
+      _compat.$argument: '{"blockUpload":true,"blockShorts":true,"blockImmersive":true,"captionLang":"ko","lyricLang":"ko","debug":false}'
     body_required: true
     binary_body: true
 mitm:
