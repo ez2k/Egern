@@ -37,7 +37,7 @@ compat_arguments_schema:
     - zh-Hans
     - zh-Hant
     - ja
-    - ko
+    - kr
     - en
     - off
   lyricLang:
@@ -48,7 +48,7 @@ compat_arguments_schema:
     - zh-Hans
     - zh-Hant
     - ja
-    - ko
+    - kr
     - en
     - off
   debug:
